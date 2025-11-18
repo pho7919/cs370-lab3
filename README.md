@@ -7,7 +7,7 @@
 
 ## Contributions
 - Gregory Larson
-	- Started part 1, the Factory Preset Model. Created the logic and state diagrams.
+	- Started part 1, the Factory Preset Model. Created the logic and all diagrams.
 - Patrick Ho
 	- Finished part 1, Factory Preset Model. Created the clock.
 - Rachel Rogers
