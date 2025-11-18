@@ -16,14 +16,28 @@
 ## Files Attached
 - README.txt
 	- This documentation file.
-- StateDiagram.jpg
-	- This is am image of the state diagram for the logic in part 1.
-- StateTable.jpg
-	- This is am image of the state table for the logic in part 1.
-- KMap.jpg
-	- This is am image of the K-maps for the logic in part 1.
-- Equations.jpg
-	- This is am image of the equations for the logic in part 1.
+- Images (Folder)
+	- StateDiagram.jpg
+		- This is am image of the state diagram for the logic in part 1.
+	- StateTable.jpg
+		- This is am image of the state table for the logic in part 1.
+	- KMap.jpg
+		- This is am image of the K-maps for the logic in part 1.
+	- Equations.jpg
+		- This is am image of the equations for the logic in part 1.
+- Raw CCT Files (Folder)
+	- 1_Gotcha_Anti-Theft.cct
+			- Contains the documented .cct file of part 1 of the lab, the Factory Preset Model.
+   	- 8_Bit_Sequencer.cct
+			- Contains the documented .cct file of the 8-Bit Sequencer for part 2 of the lab.
+   	- User_Programmable.cct
+			- Contains the documented .cct file of the User-Programmable Code for part 2 of the lab.
+- Part_1_Factory_Preset_Model.cct
+	- Contains the documented .cct file of the finished Factory Preset Model circuit part.
+- Part_2_User_Programmable_Model.cct
+	- Contains the documented .cct file of the finished 8-Bit Sequencer and User-Programmable Code circuit parts.
+- Lab3.clf
+	- Contains the finished circuit parts of Lab 3. The Factory Preset Model, the 8-Bit Sequencer and the User-Programmable Code
 
 ## Key Used
 Gregory Larson's RedID: 01010101
