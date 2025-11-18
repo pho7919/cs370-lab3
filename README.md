@@ -50,6 +50,6 @@ StateTable.jpg
 KMap.jpg  
 Equations.jpg  
 
-For part 2, we have the User-Programmable Model and the 8-Bit Sequencer. The User-Programmable Model stores the user programmable code and is clocked by the "SAVE" input. The "INPUT CHECKER" is built with XNOR fares that compare output from the 8-Bit Sequencer to the user's secret byte. The XNOR gate ensures that 1 outputs only is both inputs are 1.
+For part 2, we have the User-Programmable Model and the 8-Bit Sequencer. The User-Programmable Model stores the user programmable code and is clocked by the "SAVE" input. The "INPUT CHECKER" is built with XNOR gates that compare output from the 8-Bit Sequencer to the user's secret byte. The XNOR gate ensures that 1 outputs only is both inputs are 1.
 The 8-Bit Sequencer has outputs Disp00-Disp07 (for the probes) and Out00-Out07 (the output to feed into the User-Programmable Model). Using similar inputs as part 1, it has the 0 and 1 buttons. There are 8 flip-flops, M1-M8. M1 takes direct input from the push buttons 1 and 0, using asynchronous input to change state. Its D and C are set to 0 (unused). M2-M8 hold the previous inputs. Clock is pulsed when 1 and 0 are pressed, causing the data to shift to the next flip-flop. The RESET hooks up the reset of M1-M8, inverted, and also is the input for an OR gate with the 0 button to connect to the clocks of M1-M8. 
 
