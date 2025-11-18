@@ -7,11 +7,11 @@
 
 ## Contributions
 - Gregory Larson
-	- Started part 1, the Factory Preset Model. Created the logic and all diagrams.
+	- Completed part 1, the Factory Preset Model. Created all diagrams.
 - Patrick Ho
-	- Finished part 1, Factory Preset Model. Created the clock.
+	- Created part 2, the 8-Bit Sequencer.
 - Rachel Rogers
-	- Created part 2, the User-Programmable Model and the 8-Bit Sequencer.
+	- Created part 2, the User-Programmable Model.
 
 ## Files Attached
 - README.txt
