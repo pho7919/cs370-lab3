@@ -40,7 +40,7 @@
 	- Contains the finished circuit parts of Lab 3. The Factory Preset Model, the 8-Bit Sequencer and the User-Programmable Code
 
 ## Key Used
-Gregory Larson's RedID: 01010101
+Key from Gregory Larson's RedID: 01010101
 
 ## Design Process
 For part 1, the Factory Preset Model, we have 2 buttons inputs, BTN_1 and BTN_0 on the left, 0 and 1. When pressed, these inputs send a 1 through. These buttons feed through a flip-flop "X" which manages the input from the user. It sends a 0 or 1, depending on the input pressed. BTN_0 also feeds into an AND gate called "X RESET" which combines BTN_0 and RESET which is the reset of "X". Then, theres the clock pulse, "C PULSE," which takes the inverted input of BTN_1 and BTN_0. C inputs respond to positive edge, C PULSE stays in 1, switches to 0 on button pressed, and reverts to 0 on release. Then we have the clock logic, the "COUNTER" counter and "16_COUNT" flip-flop. The 4-bit counter tracks presses 0-15, and the flip-flop tracks the 16th press. It will toggle to 1 when COUNTER overflows, which disables "SIGNAL_OUT," (which will start the engine after the correct code is detected and the signal is not locked) and resets "COUNTER RESET" (which is an OR gate that resets the two counter components when the RESET button is pressed or the correct code is detected before lockout), effectively locking the user out at 16 presses. We also used a signal bus that has the signal wires: X', X, C', C, B', B, and A. It is optimized to only use 3 flip-flops, reducing the hardware required. This all was determined by the logic shown in our state diagram, state table, and k-map optimized equations, which are included in this zip file in the Lab3_Images folder. 
