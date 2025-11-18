@@ -7,7 +7,7 @@
 
 ## Contributions
 - Gregory Larson
-	- Completed part 1, the Factory Preset Model. Created all diagrams.
+	- Completed part 1, the Factory Preset Model. Created diagrams.
 - Patrick Ho
 	- Created part 2, the 8-Bit Sequencer.
 - Rachel Rogers
