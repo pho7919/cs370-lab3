@@ -18,13 +18,13 @@
 	- This documentation file.
 - Images (Folder)
 	- StateDiagram.jpg
-		- This is am image of the state diagram for the logic in part 1.
+		- This is an image of the state diagram for the logic in part 1.
 	- StateTable.jpg
-		- This is am image of the state table for the logic in part 1.
+		- This is an image of the state table for the logic in part 1.
 	- KMap.jpg
-		- This is am image of the K-maps for the logic in part 1.
+		- This is an image of the K-maps for the logic in part 1.
 	- Equations.jpg
-		- This is am image of the equations for the logic in part 1.
+		- This is an image of the equations for the logic in part 1.
 - Raw CCT Files (Folder)
 	- 1_Gotcha_Anti-Theft.cct
 			- Contains the documented .cct file of part 1 of the lab, the Factory Preset Model.
